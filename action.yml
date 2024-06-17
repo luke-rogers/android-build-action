@@ -90,7 +90,7 @@ runs:
     - id: "SETUP_NODE"
       uses: actions/setup-node@v3
       with:
-        node-version: 16
+        node-version: 18
     - id: "RUN_INDEX"
       env:
         BUILD_TYPE: ${{ inputs.build-type }}
